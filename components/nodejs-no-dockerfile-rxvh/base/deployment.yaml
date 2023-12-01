@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-no-dockerfile-rxvh
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-690/nodejs-no-dockerfile-rxvh@sha256:08ee7954954bfbd132b0b336c6bf0f70e37907dac0f1cfa552e24cc7f9848f7f
         name: my-nodejs
         ports:
         - containerPort: 3001
