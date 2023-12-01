@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-zhhg
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-690/pip-e2e-test-zhhg@sha256:82c6a714148f288d0ec41fb652529fa28dd500c19fb443eebc2796451edcdea0
         name: pip-e2e-test
         ports:
         - containerPort: 8081
