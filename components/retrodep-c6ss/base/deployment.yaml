@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: test-app-690
   name: retrodep-c6ss
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
